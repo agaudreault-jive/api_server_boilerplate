@@ -60,7 +60,7 @@
     "jsonwebtoken": "^8.5.1",
     "pg": "^7.18.1",
     "pluralize": "^8.0.0",
-    "redoc": "^2.0.0-rc.20",
+    "redoc": "^2.0.0-rc.26",
     "reflect-metadata": "^0.1.13",
     "routing-controllers": "^0.8.0",
     "routing-controllers-openapi": "^1.8.0",
