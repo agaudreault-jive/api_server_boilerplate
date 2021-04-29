@@ -1,0 +1,32 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "10:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: dompurify
+    versions:
+    - 2.2.6
+    - 2.2.7
+  - dependency-name: typescript
+    versions:
+    - 3.9.7
+    - 3.9.8
+  - dependency-name: typeorm
+    versions:
+    - 0.2.30
+    - 0.2.31
+  - dependency-name: class-validator-jsonschema
+    versions:
+    - 2.1.1
+  - dependency-name: "@types/supertest"
+    versions:
+    - 2.0.10
+  - dependency-name: "@types/jsonwebtoken"
+    versions:
+    - 8.5.0
+  commit-message:
+    prefix: "chore: [NS] "
